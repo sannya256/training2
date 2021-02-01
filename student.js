@@ -16,7 +16,7 @@ class Student{
     Name;
     programme;
 
-    constructor(ID, Name) {
+    constructor(ID, Name, programme) {
         this.ID = ID;
         this.Name  = Name;
         this.programme = programme;
