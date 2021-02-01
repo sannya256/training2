@@ -33,7 +33,7 @@ var programme = new Programme("123", "MSc Computing");
 var students = [
     new Student("001", "Sandra","MSc Computing"),
     new Student("002", "Sally", programme),
-    new Student("002", "Silvy", programme),
+    new Student("003", "Silvy", programme),
 ];
 // to complete
 function printStudents() {
