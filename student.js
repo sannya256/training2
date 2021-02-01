@@ -23,7 +23,7 @@ class Student{
     }
         //
     tableRow() {
-        return `<tr><td>${this.id}</td><td>${this.Name}</td><td>${this.programme.name}</td></tr>`;
+        return `<tr><td>${this.ID}</td><td>${this.Name}</td><td>${this.programme.name}</td></tr>`;
     }
 
 }
@@ -36,7 +36,7 @@ var students = [
     new Student("002", "Silvy", programme),
 ];
 // to complete
-function printstudents() {
+function printStudents() {
     var html =
     `<table border="1">
         <tr>
@@ -50,7 +50,7 @@ function printstudents() {
 
     html +="</table>";
 
-    var main = document.getElementByID ("main")
+    var main = document.getElementById ("main");
     main.innerHTML = html;
 
 
