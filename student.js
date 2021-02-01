@@ -47,12 +47,10 @@ function printStudents(){
     for (var student of students) {
         html+=student.tableRow();
     }
-}
 
     html +="</table>";
 
     var main = document.getElementById ("main");
     main.innerHTML = html;
-
 
 }
