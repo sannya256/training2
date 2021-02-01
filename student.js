@@ -44,7 +44,7 @@ function printStudents() {
         <th>Name</th>
         <th>Programme</th>
     </tr>`;
-    for (var student of student){
+    for (var student of students){
         html+=student.tableRow();
     }
 
