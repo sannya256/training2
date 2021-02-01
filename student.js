@@ -36,23 +36,23 @@ var students = [
     new Student("003", "Silvy", programme),
 ];
 // to complete
-function printStudents() {
-    var html =
+function printStudents(){
+    var html = 
     `<table border="1">
         <tr>
         <th>ID</th>
         <th>Name</th>
         <th>Programme</th>
     </tr>`;
-    for (var student of students){
+    for (var student of students) {
         html+=student.tableRow();
     }
+}
 
     html +="</table>";
 
     var main = document.getElementById ("main");
     main.innerHTML = html;
-
 
 
 }
