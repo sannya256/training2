@@ -48,7 +48,7 @@ function printStudents(){
         html+=student.tableRow();
     }
 
-    html +="</table>";
+    html += "</table>";
 
     var main = document.getElementById ("main");
     main.innerHTML = html;
